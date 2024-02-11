@@ -18,3 +18,14 @@ console.log(newName)
 
 const anotherString=gameName.slice(4,5)//it takes the slice of that string
 console.log(anotherString)
+
+
+const exTrim="    hardik     "//trim does the triming of the extra spaces
+console.log(exTrim)
+console.log(exTrim.trim())
+
+//replace is used to replace somethihng
+console.log(exTrim.replace('a','h'))
+
+//include is used to check wether the particular part is present the string or not
+console.log(exTrim.includes('ha'))
